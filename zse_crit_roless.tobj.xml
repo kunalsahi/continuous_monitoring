@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TOBJ" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <OBJH>
+    <OBJECTNAME>ZSE_CRIT_ROLES</OBJECTNAME>
+    <OBJECTTYPE>S</OBJECTTYPE>
+    <CLIDEP>X</CLIDEP>
+    <OBJCATEG>CUST</OBJCATEG>
+    <OBJTRANSP>2</OBJTRANSP>
+    <IMPORTABLE>3</IMPORTABLE>
+   </OBJH>
+   <OBJT>
+    <LANGUAGE>E</LANGUAGE>
+    <OBJECTNAME>ZSE_CRIT_ROLES</OBJECTNAME>
+    <OBJECTTYPE>S</OBJECTTYPE>
+    <DDTEXT>Critical Roles For Audit</DDTEXT>
+   </OBJT>
+   <OBJS>
+    <OBJS>
+     <OBJECTNAME>ZSE_CRIT_ROLES</OBJECTNAME>
+     <OBJECTTYPE>S</OBJECTTYPE>
+     <TABNAME>ZSE_CRIT_ROLES</TABNAME>
+     <DDIC>X</DDIC>
+     <PRIM_TABLE>X</PRIM_TABLE>
+    </OBJS>
+   </OBJS>
+   <TOBJ>
+    <TDDAT>
+     <TABNAME>ZSE_CRIT_ROLES</TABNAME>
+     <CCLASS>Z011</CCLASS>
+    </TDDAT>
+    <TVDIR>
+     <TABNAME>ZSE_CRIT_ROLES</TABNAME>
+     <AREA>ZSE_CRIT_ROLES</AREA>
+     <DEVCLASS>ZCA_ABAP</DEVCLASS>
+     <TYPE>1</TYPE>
+     <LISTE>9000</LISTE>
+     <BASTAB>X</BASTAB>
+    </TVDIR>
+    <TVIMF>
+     <TVIMF>
+      <TABNAME>ZSE_CRIT_ROLES</TABNAME>
+      <EVENT>01</EVENT>
+      <FORMNAME>UPDATE</FORMNAME>
+     </TVIMF>
+     <TVIMF>
+      <TABNAME>ZSE_CRIT_ROLES</TABNAME>
+      <EVENT>05</EVENT>
+      <FORMNAME>CREATE</FORMNAME>
+     </TVIMF>
+    </TVIMF>
+   </TOBJ>
+  </asx:values>
+ </asx:abap>
+</abapGit>

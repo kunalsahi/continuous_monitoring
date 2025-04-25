@@ -1,0 +1,130 @@
+@Metadata.layer: #CUSTOMER
+@EndUserText.label: 'User Master List With Org Data'
+annotate entity zc_user_master
+    with 
+{
+    /* Selection Fields */
+    @UI.selectionField: [{ position: 10 }]
+    @UI.lineItem: [{ position: 10 }]
+    @EndUserText.label: 'User Name'
+    UserName;
+
+    @UI.selectionField: [{ position: 20 }]
+    @UI.lineItem: [{ position: 20 }]
+    @EndUserText.label: 'Employee ID'
+    EmployeeID;
+
+    @UI.selectionField: [{ position: 30 }]
+    @UI.lineItem: [{ position: 30 }]
+    @EndUserText.label: 'Employee Name'
+    employeeName;
+
+    @UI.selectionField: [{ position: 40 }]
+    @UI.lineItem: [{ position: 40 }]
+    @EndUserText.label: 'User Lock Status'
+    UserLockStatus;
+
+    @UI.selectionField: [{ position: 50 }]
+    @UI.lineItem: [{ position: 50 }]
+    @EndUserText.label: 'Last Logon Date'
+    LastLogonDate;
+
+    @UI.selectionField: [{ position: 60 }]
+    @UI.lineItem: [{ position: 60 }]
+    @EndUserText.label: 'Roles Exist'
+    RolesExist;
+
+    /* Display Fields */
+    @UI.lineItem: [{ position: 70 }]
+    @EndUserText.label: 'User Valid From'
+    UserValidFrom;
+
+    @UI.lineItem: [{ position: 80 }]
+    @EndUserText.label: 'User Valid To'
+    UserValidTo;
+
+    @UI.lineItem: [{ position: 90 }]
+    @EndUserText.label: 'User Type'
+    UserType;
+
+    @UI.lineItem: [{ position: 100 }]
+    @EndUserText.label: 'Last Logon Time'
+    LastLogonTime;
+
+    @UI.lineItem: [{ position: 110 }]
+    @EndUserText.label: 'User Email Address'
+    UserEmailAddress;
+
+    /* Employee Organization Details */
+    @UI.lineItem: [{ position: 120 }]
+    @EndUserText.label: 'Manager Name'
+    managerName;
+
+    @UI.lineItem: [{ position: 130 }]
+    @EndUserText.label: 'Career Level'
+    careerLevel;
+
+    @UI.lineItem: [{ position: 140 }]
+    @EndUserText.label: 'Division'
+    divisionText;
+
+    @UI.lineItem: [{ position: 150 }]
+    @EndUserText.label: 'Position Title'
+    positionTitle;
+
+    @UI.lineItem: [{ position: 160 }]
+    @EndUserText.label: 'Job Title'
+    jobTitle;
+
+    @UI.lineItem: [{ position: 170 }]
+    @EndUserText.label: 'Work Location'
+    workLocation;
+
+    @UI.lineItem: [{ position: 180 }]
+    @EndUserText.label: 'Cost Center Description'
+    costCenterDesc;
+
+    @UI.lineItem: [{ position: 190 }]
+    @EndUserText.label: 'Personnel Group'
+    personnelGroupText;
+
+    @UI.lineItem: [{ position: 200 }]
+    @EndUserText.label: 'Action Date'
+    actionDate;
+
+    @UI.lineItem: [{ position: 210 }]
+    @EndUserText.label: 'Action Text'
+    actionText;
+
+    @UI.lineItem: [{ position: 220 }]
+    @EndUserText.label: 'Employee Status Description'
+    statusText;
+
+    /* Hide Fields */
+    @UI.hidden: true
+    managerId;
+
+    @UI.hidden: true
+    division;
+
+    @UI.hidden: true
+    positionId;
+
+    @UI.hidden: true
+    jobId;
+
+    @UI.hidden: true
+    workLocationId;
+
+    @UI.hidden: true
+    costCenterId;
+
+    @UI.hidden: true
+    personnelGroupId;
+
+    @UI.hidden: true
+    employeeStatus;
+
+    @UI.hidden: true
+    actionType;
+}
